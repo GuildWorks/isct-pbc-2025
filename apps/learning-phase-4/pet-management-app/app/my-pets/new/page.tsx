@@ -176,6 +176,7 @@ export default function NewPetPage() {
                 />
               </div>
 
+              {/* AI識別実行中表示を追加 */}
               {identifying && (
                 <p className="text-sm text-blue-600">AIが品種を識別中...</p>
               )}
